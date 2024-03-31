@@ -1,0 +1,690 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#netflix{
+width:100%;
+height: 650px;
+background-image: url(https://c4.wallpaperflare.com/wallpaper/260/579/821/stranger-things-netflix-hd-wallpaper-preview.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-color: rgb(19, 19, 73);
+display: flex;
+justify-content: center;
+}
+#netflix .nav{
+    width: 80%;
+    height: 100%;
+  
+  
+}
+#netflix .nav .top{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+#netflix .nav .top img{
+    width: 160px;
+
+}
+
+#netflix .nav .top .right select{
+    width: 120px;
+    height: 35px;
+    background: none;
+    border: 1px solid rgb(172, 161, 161);
+    border-radius: 5px;
+    color: white;
+}
+#netflix .nav .top .right button{
+    width: 80px;
+    height: 35px;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+
+}
+#netflix .nav .unlimited{
+    margin-top: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+}
+#netflix .nav .unlimited h1{
+    font-size: 40px;
+    font-family: "Merriweather", serif;
+    font-weight: bolder;
+}
+#netflix .nav .unlimited p{
+    font-size: 20px;
+}
+#netflix .nav .unlimited .get input{
+    width: 350px;
+    height: 45px;
+    border:1px solid grey;
+    background-color: rgba(68, 66, 66, 0.425);
+    border-radius: 5px;
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-size: 17px;
+    padding:20px;
+  
+}
+#netflix .nav .unlimited .get button{
+    width: 190px;
+    height: 46px;
+    margin-top: 5px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.second{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.second .enjoy {
+    width:80% ;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.second .enjoy .one{
+    
+    color: white;
+}
+
+
+.third {
+    width: 100%;
+    height:500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.third .offline{
+    width:80% ;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+
+}
+.third .offline .two{
+    color: white;
+}
+.fourth {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.fourth .watch{
+    width:80% ;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.fourth .watch .one{
+    color: white;
+}
+.fifth{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+}
+.fifth .create{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.fifth .create .one{
+    width: 500px;
+    
+}
+.fifth .create .one img{
+    width: 450px;
+}
+.fifth .create .two p{
+    font-size: 20px;
+}
+.sixth{
+    width: 100%;
+    height: 880px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.sixth .freq{
+    width: 1200px;
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
+    gap: 10px;
+    
+    
+}
+.sixth .freq .first{
+    width: 1000px;
+    height: 100px;
+    background-color: rgba(128, 128, 128, 0.397);
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+}
+.sixth .freq .first:hover{
+    background-color: rgba(128, 128, 128, 0.637);
+}
+.sixth .freq .first p{
+    margin: 20px;
+}
+.sixth .freq .first h2{
+    margin: 20px;
+    font-size: 50px;
+}
+.sixth .freq .what{
+    margin-top: 2px;
+    width: 1000px;
+    height: 620px;
+    background-color: rgba(128, 128, 128, 0.308);
+    display: none;
+}
+.sixth .freq .what p{
+    margin: 20px;
+    
+}
+.sixth .freq .sec{
+    width: 1000px;
+    height: 100px;
+    background-color: rgba(128, 128, 128, 0.397);
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+}
+.sixth .freq .sec:hover{
+    background-color: rgba(128, 128, 128, 0.637);
+}
+.sixth .freq .sec p{
+    margin: 20px;
+}
+.sixth .freq .sec h2{
+    margin: 20px;
+    font-size: 50px;
+}
+.sixth .freq .much{
+    margin-top: 2px;
+    width: 1000px;
+    height: 125px;
+    background-color: rgba(128, 128, 128, 0.397);
+    display:none;
+}
+.sixth .freq .much p{
+    margin: 20px;
+    
+}
+.sixth .freq .third{
+    width: 1000px;
+    height: 100px;
+    background-color: rgba(128, 128, 128, 0.397);
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+}
+.sixth .freq .third:hover{
+    background-color: rgba(128, 128, 128, 0.637);
+}
+.sixth .freq .third p{
+    margin: 20px;
+}
+.sixth .freq .third h2{
+    margin: 20px;
+    font-size: 50px;
+}
+.sixth .freq .watch{
+    margin-top: 2px;
+    width: 1000px;
+    height: 280px;
+    background-color: rgba(128, 128, 128, 0.397);
+    display:none;
+}
+.sixth .freq .watch p{
+    margin: 20px;
+    
+}
+.sixth .freq .fort{
+    width: 1000px;
+    height: 100px;
+    background-color: rgba(128, 128, 128, 0.397);
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+}
+.sixth .freq .fort:hover{
+    background-color: rgba(128, 128, 128, 0.637);
+}
+.sixth .freq .fort p{
+    margin: 20px;
+}
+.sixth .freq .fort h2{
+    margin: 20px;
+    font-size: 50px;
+}
+.sixth .freq .cancel{
+    margin-top: 2px;
+    width: 1000px;
+    height: 280px;
+    background-color: rgba(128, 128, 128, 0.397);
+    display:none;
+}
+.sixth .freq .cancel p{
+    margin: 20px;
+    
+}
+.sixth .freq .fifth{
+    width: 1000px;
+    height: 100px;
+    background-color: rgba(128, 128, 128, 0.397);
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+}
+.sixth .freq .fifth:hover{
+    background-color: rgba(128, 128, 128, 0.637);
+}
+.sixth .freq .fifth p{
+    margin: 20px;
+}
+.sixth .freq .fifth h2{
+    margin: 20px;
+    font-size: 50px;
+}
+.sixth .freq .can{
+    margin-top: 2px;
+    width: 1000px;
+    height: 100px;
+    background-color: rgba(128, 128, 128, 0.397);
+    display:none;
+}
+.sixth .freq .can p{
+    margin: 20px;
+    
+}
+.sixth .freq .six{
+    width: 1000px;
+    height: 100px;
+    background-color: rgba(128, 128, 128, 0.397);
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+}
+.sixth .freq .six:hover{
+    background-color: rgba(128, 128, 128, 0.637);
+}
+.sixth .freq .six p{
+    margin: 20px;
+}
+.sixth .freq .six h2{
+    margin: 20px;
+    font-size: 50px;
+}
+.sixth .freq .kids{
+    margin-top: 2px;
+    width: 1000px;
+    height: 200px;
+    background-color: rgba(128, 128, 128, 0.397);
+    display:none;
+}
+.sixth .freq .kids p{
+    margin: 20px;
+    
+}
+.memb{
+    margin-top: 20px;
+}
+.ready input{
+    width: 300px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid grey;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+
+}
+.ready button{
+    width: 120px;
+    height: 40px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+}
+.dash{
+
+    width: 100%;
+    height: 5px;
+    background-color: grey;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+   
+}
+footer .foot{
+    width: 90%;
+}
+footer .foot .fun{
+    padding: 20px;
+    width: 100%;
+    height: 20px;
+    color: grey;
+    
+}
+.fun .qwe{
+    font-size: 16px;
+    color: grey;
+
+    
+}
+footer .quad{
+    display: flex;
+    justify-content: space-around;
+
+}
+footer .quad ul{
+    list-style: none;
+    line-height: 40px;
+}
+
+footer .quad .a1{
+    color: grey;
+ line-height: 40px;
+
+}
+footer .quad .a1 input{
+    width: 50px;
+    height: 30px;
+}
+footer .quad .a2{
+    color: grey;
+}
+footer .quad .a3{
+    color: grey;
+}
+footer .quad .a4{
+    color: grey;
+}
+.fd{
+    color: white;
+}
+
+
+@media screen and (max-width:1250px) {
+    .second .enjoy .two img {
+        width: 400px;
+    }
+    .third .offline{
+        width: 900px;
+    }
+    .fourth .watch{
+        width: 900px;
+    }
+    .fifth .create{
+        width: 900px;
+    }
+}
+@media screen and (max-width:1000px){
+    .sixth .freq{
+        font-size: 20px;
+    }
+    .sixth .freq .first{
+        width: 800px;
+        height: 70px;
+    }
+    .sixth .freq .sec{
+        width: 800px;
+        height: 70px;
+    }
+    .sixth .freq .third{
+        width: 800px;
+        height: 70px;
+    }
+    .sixth .freq .fort{
+        width: 800px;
+        height: 70px;
+    }
+    .sixth .freq .fifth{
+        width: 800px;
+        height: 70px;
+    }
+    .sixth .freq .six{
+        width: 800px;
+        height: 70px;
+    }
+}
+@media screen and (max-width:900px) {
+ 
+    .second .enjoy .two img {
+        width: 300px;
+    }
+    .third .offline .one {
+        width: 400px;
+    }
+    .third .offline .one img{
+        width: 500px;
+    }
+    .fourth .watch .two img{
+        width: 400px;
+    }
+    .fifth .create .one img{
+        width: 400px;
+    }
+    .fifth .create .two p{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:800px){
+    .sixth .freq{
+        font-size: 20px;
+    }
+    .sixth .freq .first{
+        width: 600px;
+        height: 70px;
+    }
+    .sixth .freq .sec{
+        width: 600px;
+        height: 70px;
+    }
+    .sixth .freq .third{
+        width: 600px;
+        height: 70px;
+    }
+    .sixth .freq .fort{
+        width: 600px;
+        height: 70px;
+    }
+    .sixth .freq .fifth{
+        width: 600px;
+        height: 70px;
+    }
+    .sixth .freq .six{
+        width: 600px;
+        height: 70px;
+    }
+    #netflix .nav .unlimited{
+        width: 500px;
+    }
+    #netflix .nav .unlimited .get button{
+        width: 100px;
+        font-size: 12px;
+    }
+    .fourth .watch{
+        flex-direction: column;
+    }
+    .fourth .watch .one{
+        margin-top: 80px;
+    }
+    .fifth .create{
+        flex-direction: column;
+    }
+    .third .offline{
+        flex-direction: column;
+    }
+    .second .enjoy{
+        flex-direction: column;
+        height: 70%;
+    }
+    .second .enjoy .one{
+        margin-top: 20px;
+    }
+    .third .offline .one img{
+        margin-left: -50px;
+    }
+}
+@media screen and (max-width:600px){
+    .fourth .watch{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .second .enjoy .one{
+        margin-top: 20px;
+    }
+    .third .offline{
+        flex-direction: column;
+    }
+.fifth .create{
+    flex-direction: column;
+}
+.second .enjoy{
+    flex-direction: column;
+}
+    .sixth .freq{
+        font-size: 14px;
+    }
+    .sixth .freq .first{
+        width: 350px;
+        height: 70px;
+    }
+    .sixth .freq .sec{
+        width: 350px;
+        height: 70px;
+    }
+    .sixth .freq .third{
+        width: 350px;
+        height: 70px;
+    }
+    .sixth .freq .fort{
+        width: 350px;
+        height: 70px;
+    }
+    .sixth .freq .fifth{
+        width: 350px;
+        height: 70px;
+    }
+    .sixth .freq .six{
+        width: 350px;
+        height: 70px;
+    }
+}
+@media screen and (max-width:500px){
+    #netflix .nav .top{
+        margin-left: 100px;
+    }
+    #netflix .nav .top img{
+        width: 120px;
+    }
+    #netflix .nav .top .right select{
+        width: 65px;
+    }
+    #netflix .nav .top .right button{
+        width:60px ;
+    }
+    #netflix .nav .unlimited h1{
+        font-size: 25px;
+    }
+    #netflix .nav .unlimited p{
+        font-size: 15px;
+    }
+    #netflix .nav .unlimited .get input{
+        width:200px ;
+        height: 36px;
+    }
+    #netflix .nav .unlimited .get button{
+        height: 38px;
+    }
+    #netflix .nav{
+       margin-right: 150px;
+    }
+}
+@media screen and (max-width:500px){
+    #netflix .nav .top .right select{
+        display: none;
+    }
+    #netflix .nav .top{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .ready input{
+        margin-left: 45px;
+    }
+    .ready button{
+        margin-top: 10px;
+        margin-left: 120px;
+    }
+    .memb{
+        margin-left: 25px;
+    }
+    .fifth .create .one img{
+        margin-left:50px ;
+    }
+}
